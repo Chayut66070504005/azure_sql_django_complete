@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
      'default': {
          'ENGINE': 'mssql',
-         'NAME': 'free-sql-db-5302196',
+         'NAME': 'free-sql-db-2250894',
          'USER': 'aum-admin',
          'PASSWORD': 'P@ss1234',
-         'HOST': 'aum-sql-server.database.windows.net',
+         'HOST': 'aum-sql.database.windows.net',
          'PORT': '1433',
          'OPTIONS': {
              'driver': 'ODBC Driver 18 for SQL Server',
