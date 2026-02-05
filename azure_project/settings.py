@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 DATABASES = {
      'default': {
          'ENGINE': 'mssql',
-         'NAME': 'free-sql-db-0009093',
+         'NAME': 'free-sql-db-1678443',
          'USER': 'aum-admin',
          'PASSWORD': 'P@ss1234',
          'HOST': 'aum-sql.server.database.windows.net',
