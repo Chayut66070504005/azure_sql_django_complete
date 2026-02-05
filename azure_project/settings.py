@@ -87,19 +87,21 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'bearlab-sql-db',
-        'USER': 'bearlab-admin',
-        'PASSWORD': 'P@ss1234',
-        'HOST': 'bearlab-sql-server.database.windows.net',
-        'PORT': '1433',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-        },
-    },
-}
+     'default': {
+         'ENGINE': 'mssql',
+         'NAME': 'free-sql-db-0009093',
+         'USER': 'aum-admin',
+         'PASSWORD': 'P@ss1234',
+         'HOST': 'aum-sql.server.database.windows.net',
+         'PORT': '1433',
+         'OPTIONS': {
+             'driver': 'ODBC Driver 18 for SQL Server',
+             'extra_params': 'Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;',
+         },
+     },
+ }
 
 
 import urllib.parse
