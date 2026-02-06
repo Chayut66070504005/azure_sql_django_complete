@@ -97,7 +97,6 @@ DATABASES = {
          'HOST': 'aum-sql-server.database.windows.net',
          'PORT': '1433',
          'OPTIONS': {
-             'driver': 'ODBC Driver 17 for SQL Server',
              'extra_params': 'Encrypt=yes;TrustServerCertificate=no;'
          },
      },
