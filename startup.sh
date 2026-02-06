@@ -7,4 +7,4 @@ apt-get update
 ACCEPT_EULA=Y apt-get install -y msodbcsql18 unixodbc-dev
 
 # รัน App ของพี่ (แก้ 'myproject' เป็นชื่อโปรเจกต์พี่)
-gunicorn --bind=0.0.0.0 --timeout 600 myproject.wsgi
+gunicorn --bind=0.0.0.0 --timeout 600 azure_project.wsgi
